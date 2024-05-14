@@ -1,29 +1,6 @@
 #include<stdio.h>
 
 //---------------------------------------------------------------------//
-int divisible(){
-
-int numeroSolicitado;
-
-printf("Introduzca un numero para ver si es o no divisible unicamente por 11 y 1: ");
-scanf("%i", &numeroSolicitado);
-
-int c = 0;
-for(int i=1; i<=11; i++){
-    if(numeroSolicitado % i == 0 && numeroSolicitado % 11 == 0){c = c+1;}
-}
-
-if(c<2){printf("Igualmente aguante velez");}
-    else if (c == 2){printf("AGUANTE VELEZ");}
-if(c>2){printf("Igualmente aguante velez");}
-
-printf("\n");
-printf("\n");
-
-    return 0;
-}
-//---------------------------------------------------------------------//
-//---------------------------------------------------------------------//
 int diferencia(){
 
 int numeroUno;

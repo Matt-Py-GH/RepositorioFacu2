@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(){
+void procedimientoFizzBuzz(){
 
 int numero;
 for(int numero = 1; numero <= 100; numero++){
@@ -11,6 +11,12 @@ for(int numero = 1; numero <= 100; numero++){
     else if(numero % 3 == 0){printf("fizz \n");}
 
 }
+
+}
+
+int main(){
+
+procedimientoFizzBuzz();
 
     return 0;
 }
